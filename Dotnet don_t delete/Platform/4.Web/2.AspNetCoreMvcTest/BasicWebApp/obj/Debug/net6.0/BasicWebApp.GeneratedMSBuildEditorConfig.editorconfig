@@ -1,0 +1,29 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BasicWebApp
+build_property.RootNamespace = BasicWebApp
+build_property.ProjectDir = c:\Users\harsh\Downloads\Hussain code\Dotnet don_t delete\Platform\4.Web\2.AspNetCoreMvcTest\BasicWebApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\harsh\Downloads\Hussain code\Dotnet don_t delete\Platform\4.Web\2.AspNetCoreMvcTest\BasicWebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/harsh/Downloads/Hussain code/Dotnet don_t delete/Platform/4.Web/2.AspNetCoreMvcTest/BasicWebApp/Views/Greeter/Hello.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JlZXRlclxIZWxsby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/harsh/Downloads/Hussain code/Dotnet don_t delete/Platform/4.Web/2.AspNetCoreMvcTest/BasicWebApp/Views/Greeter/Welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JlZXRlclxXZWxjb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/harsh/Downloads/Hussain code/Dotnet don_t delete/Platform/4.Web/2.AspNetCoreMvcTest/BasicWebApp/Views/Tour/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG91clxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

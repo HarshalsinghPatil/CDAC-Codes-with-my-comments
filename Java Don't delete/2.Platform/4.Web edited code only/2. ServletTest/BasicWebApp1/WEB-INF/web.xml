@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+	<welcome-file-list>
+		<welcome-file>welcome.html</welcome-file>
+	</welcome-file-list>
+<!-- 2. The Greeter servlet is object of which class ==> basic.web.app  and then it generates a dynamic content which is then sent to browser as simple web page -->
+	<servlet>
+		<servlet-name>Greeter</servlet-name>
+		<servlet-class>basic.web.app.GreetingServlet</servlet-class>
+	</servlet>
+<!-- 1. if requested path in browser will end with /welcome u must use Greeter servlet object-->
+	<servlet-mapping>
+		<servlet-name>Greeter</servlet-name>
+		<url-pattern>/welcome</url-pattern>		
+	</servlet-mapping>
+
+</web-app>
+

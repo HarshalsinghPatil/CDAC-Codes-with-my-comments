@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "wXQ1WRxUNdlt38C2c4KAZuRSBSlAQ7oURrn1QyuTquVXmJG+f123QhX9wbKdA9rcbPU4xfu6yGm+xbkeM9mgeg==",
+  "success": false,
+  "projectFilePath": "c:\\Users\\harsh\\Downloads\\Dotnet don_t delete\\Platform\\4.Web\\2.AspNetCoreMvcTest\\BasicWebApp\\BasicWebApp.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package MET.Tourism. No packages exist with this id in source(s): nuget.org",
+      "libraryId": "MET.Tourism",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
