@@ -1,7 +1,7 @@
 using System;
 
 struct Investment
-{//In c# we can't declare the p'less c'tor (but its implicitely present internally)
+{//In c# we have not declare the p'less c'tor (but its implicitely present internally)
     private double payment;
     private int count;
     private bool risk;

@@ -13,7 +13,7 @@ class Investment {
 
 	//instance method must be called (using . operator) on
 	//an object (referenced by 'this' argument) of the class
-	//in whcih it is defined and it can refer to any member 
+	//in which it is defined and it can refer to any member 
 	//of that class
 	public void allowRisk(boolean yes) {
 		risk = yes;

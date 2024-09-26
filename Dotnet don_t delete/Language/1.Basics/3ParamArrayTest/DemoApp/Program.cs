@@ -33,8 +33,8 @@ class Program
         {
             double x = double.Parse(args[0]);
             double y = double.Parse(args[1]);
-// the out keyword is used when we are just declaring the object and then assign it values in 
-// the the function/method where it is used
+        // the out keyword is used when we are just declaring the object and then assign it values in 
+        // the the function/method where it is used
             double a = AverageWithDeviation(x, y, out double d);
             Console.WriteLine("Average is {0:0.000} with a deviation of {1:0.00}", a, d);           
         }
