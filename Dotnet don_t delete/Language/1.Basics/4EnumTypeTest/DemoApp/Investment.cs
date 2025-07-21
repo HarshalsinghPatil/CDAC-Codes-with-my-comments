@@ -1,5 +1,5 @@
 using System;
-//In c# and java we declare enum same way and also assing values in same way
+//In c# and java we declare enum same way and also assign values in same way
 enum RiskLevel {None, Low, High}
 //notice here we have used the Struct
 struct Investment

@@ -15,6 +15,7 @@ namespace Payroll
         //declaration matches with the declaration of the original overridable
         //method in its base class while allowing it to return a type which
         //is derived from the return type of the original method.
+         
         public override double Income()
         {
             double income = base.Income();

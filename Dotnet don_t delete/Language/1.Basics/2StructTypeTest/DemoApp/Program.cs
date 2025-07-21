@@ -4,7 +4,12 @@ class Program
 {//This method is called from main()
 	private static void Decide(ref Investment x)//recieved as the reference
 	{
-		//if total amount is less than 5 lakh only then it will allow the risk==> smart investment
+		//smart investment ==> if total amount is less than 5 lakh only then it will allow the risk 
+		/* How below function is working ?
+			1. We have recieved object of Investment class 
+			2. Now we will call TotalAmount() method 
+			3. Now if the Total Amoutn < 5 lakh we will allow risk
+		*/
 		x.AllowRisk(x.TotalAmount() < 500000);
 	}
 

@@ -1,4 +1,13 @@
-﻿class Program
+﻿/*
+1. Reference Equality :
+(ReferenceEquals) checks if two references point to the same object in memory.
+
+2. Value Equality :
+(Equals) checks if two objects have the same value, even if they are different instances.
+
+*/
+
+class Program
 {
     private static void Print(string label, object info)
     {

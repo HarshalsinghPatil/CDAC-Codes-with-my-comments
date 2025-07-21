@@ -21,7 +21,7 @@ class Interval
     {//return o/p in the seconds
         return 60 * Minutes + Seconds;
     }
-    //operator overloading
+    //operator overloading (interval t = a + b + c + d)
     public static Interval operator+(Interval lhs, Interval rhs)
     {
         return new Interval(lhs.Minutes + rhs.Minutes, lhs.Seconds + rhs.Seconds);

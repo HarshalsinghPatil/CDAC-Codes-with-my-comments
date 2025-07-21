@@ -40,3 +40,45 @@ class Program
         }
     }
 }
+
+/* Declaring out variables ? 
+    1. way 1 : Inline declare out
+    =============================
+    double a = AverageWithDeviation(x, y, out double d);
+
+
+    Explaination :
+    --------------
+    C# inline out variable declaration, introduced in C# 7.0.
+
+        Why Declare d Inside Function Arguments?
+        1. Conciseness:
+        This eliminates the need for a separate declaration (double d;), reducing clutter in the code.
+        Makes it clear that d is only used for this function call.
+
+        2. Improved Readability:
+        Keeps the scope of d limited to the function call, making it clear that d is only relevant in this context.
+        Helps avoid accidental reuse of d elsewhere in the code, which can sometimes cause unexpected bugs.
+        
+        3. Modern C# Style:
+        This is considered a more modern and idiomatic way to write C# code, making use of language features that enhance code simplicity.
+        
+        => Is This a Pattern?
+        Yes, this follows a pattern of inlining temporary variables to keep code cleaner and scoped better. While not an official "design pattern," it's a best practice in modern C# programming where out parameters are needed but don't need to persist beyond the function call.
+
+        => When Should You Use This Pattern?
+        - When the out variable (d in this case) is only needed for this function call and won't be reused elsewhere.
+        - When you want to write cleaner, more readable C# code.
+
+    2. Way 2 : Saperately declare
+    =================================
+        double d;
+        double a = AverageWithDeviation(x, y, out d);
+
+    Explaination :
+    --------------
+        =>When Should You Declare d Separately?
+        - If d needs to be used later in the function, outside of the method call.
+        - If you are working with C# 6.0 or earlier, where inline out declarations are not supported.
+
+*/
